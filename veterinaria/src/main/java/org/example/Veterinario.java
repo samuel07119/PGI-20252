@@ -5,6 +5,10 @@ public class Veterinario {
     private String id;
 
 
+    public Veterinario (String nombre, String id) {
+        this.nombre = nombre;
+        this.id = id;
+    }
     @Override
     public String toString() {
         return "Veterinario{" +
@@ -13,9 +17,6 @@ public class Veterinario {
                 '}';
     }
 
-    public Veterinario (String nombre, String id) {
-        this.nombre = nombre;
-        this.id = id;
-    }
+
 }
 
